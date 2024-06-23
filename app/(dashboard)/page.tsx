@@ -19,7 +19,7 @@ export default async function Home() {
  });
 
  if (!userSettings) {
-  redirect('/wizard');
+  redirect('/wizzard');
  }
  return (
   <div className="h-full bg-background">
